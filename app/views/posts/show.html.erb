@@ -1,6 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+<<<<<<< HEAD
   <strong>Title:</strong>
   <%= @post.title %>
 </p>
@@ -11,4 +12,21 @@
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
+=======
+  <strong>Ejecutivo:</strong>
+  <%= @post.ejecutivo %>
+</p>
+
+<p>
+  <strong>Motivo:</strong>
+  <%= @post.motivo %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @post.descripcion %>
+</p>
+
+
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098
 <%= link_to 'Back', posts_path %>

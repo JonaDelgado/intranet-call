@@ -14,7 +14,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+<<<<<<< HEAD
 //= require posts
 //= require sb-admin-2
 //= require_tree .
 //= require_self
+=======
+//= require sb-admin-2.js
+//= require_tree .
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098

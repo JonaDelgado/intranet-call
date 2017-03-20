@@ -4,6 +4,7 @@
     <title>Intranet</title>
     <%= csrf_meta_tags %>
 
+<<<<<<< HEAD
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', media: 'all', 'data-turbolinks-track' =>true %>
 
@@ -26,6 +27,16 @@
     <%= link_to "Cerrar Sesion", destroy_account_session_path, method: :delete %>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+=======
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<%= link_to "Cerrar Sesión", destroy_account_session_path, method: :delete %>
+  	 <p class="notice"><%= notice %></p>
+     <p class="alert"><%= alert %></p>
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098
     <%= yield %>
   </body>
 </html>

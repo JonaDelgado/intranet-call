@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <center><h1>Iniciar Sesión</h1>
+=======
+<h2>Log in</h2>
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="field">
@@ -7,20 +11,36 @@
   </div>
 
   <div class="field">
+<<<<<<< HEAD
     <%= f.label :pasword %><br />
+=======
+    <%= f.label :password %><br />
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
 
   <% if devise_mapping.rememberable? -%>
     <div class="field">
       <%= f.check_box :remember_me %>
+<<<<<<< HEAD
       <%= f.label :recordar_contraseña %>
+=======
+      <%= f.label :remember_me %>
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098
     </div>
   <% end -%>
 
   <div class="actions">
+<<<<<<< HEAD
     <%= f.submit "Ingresar" %>
   </div>
 <% end %>
 
 <!--<%= render "devise/shared/links" %>--></center>
+=======
+    <%= f.submit "Log in" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098

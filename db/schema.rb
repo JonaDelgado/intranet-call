@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170123224746) do
+=======
+ActiveRecord::Schema.define(version: 20170127202311) do
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098
 
   create_table "accounts", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -30,8 +34,14 @@ ActiveRecord::Schema.define(version: 20170123224746) do
   end
 
   create_table "posts", force: :cascade do |t|
+<<<<<<< HEAD
     t.string   "title"
     t.text     "description"
+=======
+    t.string   "motivo"
+    t.string   "ejecutivo"
+    t.text     "descripcion"
+>>>>>>> d48e4abedc9fdec1a25616d55371f54f7399f098
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
